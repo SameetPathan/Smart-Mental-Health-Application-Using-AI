@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#FFFFFF" />
+  
+  <!-- Dumbbells -->
+  <g transform="translate(75, 60)">
+    <rect x="0" y="15" width="35" height="10" rx="5" fill="#8BC34A" />
+    <rect x="140" y="15" width="35" height="10" rx="5" fill="#8BC34A" />
+    <rect x="35" y="12" width="30" height="16" rx="4" fill="#558B2F" />
+    <rect x="110" y="12" width="30" height="16" rx="4" fill="#558B2F" />
+    <rect x="65" y="15" width="45" height="10" rx="2" fill="#333333" />
+  </g>
+  
+  <!-- Apple -->
+  <g transform="translate(80, 130)">
+    <circle cx="20" cy="20" r="18" fill="#FF5722" />
+    <path d="M20,2 C25,15 38,15 38,25 C38,35 30,40 20,40 C10,40 2,35 2,25 C2,15 15,15 20,2" fill="#FF9800" />
+    <path d="M20,8 L20,0 L25,5 Z" fill="#558B2F" />
+  </g>
+  
+  <!-- Water bottle -->
+  <g transform="translate(150, 120)">
+    <rect x="10" y="0" width="30" height="10" rx="5" fill="#2196F3" />
+    <path d="M5,10 L45,10 L40,60 C40,65 35,70 30,70 L20,70 C15,70 10,65 10,60 Z" fill="#90CAF9" />
+    <path d="M15,20 L35,20 L33,50 C33,52 32,55 25,55 C18,55 17,52 17,50 Z" fill="#E3F2FD" />
+  </g>
+  
+  <!-- Heart rate line -->
+  <g transform="translate(40, 200)">
+    <path d="M0,20 L40,20 L50,5 L60,35 L70,5 L80,35 L90,20 L220,20" 
+          stroke="#E91E63" 
+          stroke-width="3" 
+          fill="none" />
+  </g>
+  
+  <!-- Text boxes indicating health suggestions -->
+  <rect x="40" y="230" width="80" height="25" rx="5" fill="#8BC34A" opacity="0.3" />
+  <rect x="140" y="230" width="60" height="25" rx="5" fill="#FF9800" opacity="0.3" />
+  <rect x="210" y="230" width="50" height="25" rx="5" fill="#2196F3" opacity="0.3" />
+  
+  <!-- Exercise icon -->
+  <g transform="translate(70, 243)">
+    <circle cx="0" cy="0" r="7" fill="#558B2F" />
+    <path d="M-3,-3 L3,3 M-3,3 L3,-3" stroke="#FFF" stroke-width="2" />
+  </g>
+  
+  <!-- Diet icon -->
+  <g transform="translate(160, 243)">
+    <circle cx="0" cy="0" r="7" fill="#E65100" />
+    <path d="M-3,0 L3,0 M0,-3 L0,3" stroke="#FFF" stroke-width="2" />
+  </g>
+  
+  <!-- Hydration icon -->
+  <g transform="translate(230, 243)">
+    <circle cx="0" cy="0" r="7" fill="#0D47A1" />
+    <path d="M0,-3 L0,3 M-3,0 L3,0" stroke="#FFF" stroke-width="2" />
+  </g>
+</svg>

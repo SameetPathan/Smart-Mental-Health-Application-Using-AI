@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#FFFFFF" />
+  
+  <!-- Diary Book -->
+  <rect x="50" y="60" width="200" height="180" rx="5" ry="5" fill="#8D6E63" />
+  <rect x="55" y="65" width="190" height="170" rx="3" ry="3" fill="#D7CCC8" />
+  
+  <!-- Diary Pages -->
+  <rect x="60" y="70" width="180" height="160" rx="2" ry="2" fill="#FFFDE7" />
+  
+  <!-- Binding -->
+  <rect x="145" y="60" width="10" height="180" fill="#6D4C41" />
+  
+  <!-- Lines on the paper -->
+  <line x1="70" y1="100" x2="230" y2="100" stroke="#BDBDBD" stroke-width="1" />
+  <line x1="70" y1="120" x2="230" y2="120" stroke="#BDBDBD" stroke-width="1" />
+  <line x1="70" y1="140" x2="230" y2="140" stroke="#BDBDBD" stroke-width="1" />
+  <line x1="70" y1="160" x2="230" y2="160" stroke="#BDBDBD" stroke-width="1" />
+  <line x1="70" y1="180" x2="230" y2="180" stroke="#BDBDBD" stroke-width="1" />
+  <line x1="70" y1="200" x2="230" y2="200" stroke="#BDBDBD" stroke-width="1" />
+  
+  <!-- Empty state icon -->
+  <circle cx="150" cy="90" r="15" fill="#795548" opacity="0.2" />
+  <text x="150" y="95" text-anchor="middle" fill="#795548" font-size="18" font-family="Arial, sans-serif">📝</text>
+  
+  <!-- Bookmark -->
+  <polygon points="210,60 210,90 220,80 230,90 230,60" fill="#F44336" />
+</svg>
